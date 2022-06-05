@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T19:02:53.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" version="19.0.0" etag="OC2U-xu3JChMvU83ZgsY" type="github"><diagram id="DlSVQsHth6LmqhrNHBh_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-05T19:16:14.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="V_eFPqivip-AoS8LW-d5" version="19.0.0" type="github">
+  <diagram id="DlSVQsHth6LmqhrNHBh_" name="use case">
+    <mxGraphModel dx="1426" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lx-xTqz9GnU9gJA0MTTK-1" target="Lx-xTqz9GnU9gJA0MTTK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-1" value="관객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="367.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-2" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="367.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-6" value="공연 관람" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="355" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-8" value="공연 조회" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="275" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-10" value="공연 예매" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-11" value="공연 등록" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="550" y="275" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-12" value="공연장 등록" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-13" value="회원 가입" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="365" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-14" value="예약 조회" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="405" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-15" value="예약 변경" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="445" width="96" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
