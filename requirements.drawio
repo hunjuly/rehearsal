@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T19:23:44.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="k9y5FUpBOsn0xh-Z8cqs" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T20:47:03.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="81i6xrJr8jOh3B_qU9Ef" version="19.0.0" type="github">
   <diagram id="DlSVQsHth6LmqhrNHBh_" name="use case">
-    <mxGraphModel dx="786" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lx-xTqz9GnU9gJA0MTTK-1" value="관객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="367.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="170" y="415" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Lx-xTqz9GnU9gJA0MTTK-2" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="830" y="367.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="980" y="415" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Lx-xTqz9GnU9gJA0MTTK-6" value="공연 관람" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="350" y="220" width="440" height="450" as="geometry" />
@@ -39,6 +39,15 @@
         </mxCell>
         <mxCell id="Lx-xTqz9GnU9gJA0MTTK-17" value="통계&lt;br&gt;관객이 가장 붐비는 시간&lt;br&gt;예매율이 높은 공연" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="491.75" y="550" width="156.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-18" value="공연 추천" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="468" y="620" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-19" value="회원관리&lt;br&gt;공연예매&lt;br&gt;통계" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-20" value="공연관람(티켓팅)" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="372" y="447" width="96" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
