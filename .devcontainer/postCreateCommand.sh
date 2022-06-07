@@ -5,3 +5,5 @@ for i in $projects; do
         npm ci --prefix $i
     fi
 done
+
+git clone https://github.com/hunjuly/practice examples

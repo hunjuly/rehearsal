@@ -1,6 +1,0 @@
-[submodule "examples/practice"]
-	path = examples/practice
-	url = https://github.com/hunjuly/practice
-[submodule "test"]
-	path = test
-	url = https://github.com/hunjuly/practice
