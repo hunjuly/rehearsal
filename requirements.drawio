@@ -1,128 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T10:48:11.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="CsF2c_Uvzkm0OTgDxtYz" version="19.0.1" type="github" pages="2">
-  <diagram id="DlSVQsHth6LmqhrNHBh_" name="use case">
-    <mxGraphModel dx="725" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="MgHppn-0Fm9OYO5Kbu-o-1" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="250" width="390" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lx-xTqz9GnU9gJA0MTTK-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="445" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-1" value="관객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="415" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-2" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="415" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-8" value="공연 조회&lt;br&gt;설명, 시간, 관람 후기" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="404" y="302" width="140" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-10" value="공연 예매" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="404" y="362" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-11" value="공연 등록&lt;br&gt;공연장, 시간" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="648.25" y="302" width="96" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-12" value="공연장 등록&lt;br&gt;좌석도, 설명" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="648.25" y="354" width="96" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-13" value="회원 가입" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="404" y="407" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-14" value="예약 조회" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="522" y="427" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-15" value="예약 변경" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="522" y="467" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-17" value="통계&lt;br&gt;관객이 가장 붐비는 시간&lt;br&gt;예매율이 높은 공연" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="491.75" y="520" width="156.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-18" value="공연 추천" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="420" y="590" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-19" value="회원관리&lt;br&gt;users&lt;br&gt;공연정보&lt;br&gt;performances?&lt;br&gt;공연예매&lt;br&gt;tickets&lt;br&gt;통계&lt;br&gt;statisticses?" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="222" width="180" height="148" as="geometry" />
-        </mxCell>
-        <mxCell id="Lx-xTqz9GnU9gJA0MTTK-20" value="공연관람(티켓팅)" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="404" y="457" width="96" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2022-06-08T10:51:47.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="Oz6gYuaUSPbCdMr_OZjJ" version="19.0.1" type="github">
   <diagram id="mqK4kMpAI8Hw3ujEgYIB" name="Page-2">
     <mxGraphModel dx="888" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tOgcq0GgagfdtxYcJej9-1" value="관객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="220" width="30" height="60" as="geometry" />
+          <mxGeometry x="210" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OEuHIVzh_DNf39XRjNOx-1" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="829" y="240" width="30" height="60" as="geometry" />
+          <mxGeometry x="790" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9_AkcLnm12QB7tInCQXO-1" value="공연 등록&lt;br&gt;공연장, 시간" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="589" y="320" width="105" height="50" as="geometry" />
+          <mxGeometry x="540" y="380" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9_AkcLnm12QB7tInCQXO-2" value="공연장 등록&lt;br&gt;좌석도, 설명" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="589" y="160" width="105" height="50" as="geometry" />
+          <mxGeometry x="540" y="270" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cjTMBxp2-w8zUOzAaKwB-1" value="공연 조회&lt;br&gt;설명, 시간, 관람 후기" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="270" y="160" width="105" height="50" as="geometry" />
+          <mxGeometry x="360" y="380" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cjTMBxp2-w8zUOzAaKwB-2" value="공연 예매&lt;br&gt;조회/변경/취소" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="270" y="320" width="105" height="50" as="geometry" />
+          <mxGeometry x="360" y="540" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LXiljwWNgDDm90cMRyLn-1" value="통계&lt;br&gt;주간순위/사용자선호장르" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="160" height="60" as="geometry" />
+        <mxCell id="LXiljwWNgDDm90cMRyLn-1" value="통계&lt;br&gt;사용자선호장르&lt;br&gt;주간순위" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-1" value="회원관리&lt;br&gt;users&lt;br&gt;공연정보&lt;br&gt;performances?&lt;br&gt;공연예매&lt;br&gt;tickets&lt;br&gt;통계&lt;br&gt;statisticses?" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="180" height="148" as="geometry" />
+          <mxGeometry x="20" y="20" width="180" height="148" as="geometry" />
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-3" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="9_AkcLnm12QB7tInCQXO-1" target="9_AkcLnm12QB7tInCQXO-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="619" y="413" as="sourcePoint" />
-            <mxPoint x="779" y="413" as="targetPoint" />
+            <mxPoint x="570" y="523" as="sourcePoint" />
+            <mxPoint x="730" y="523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="OEuHIVzh_DNf39XRjNOx-1" target="9_AkcLnm12QB7tInCQXO-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="449" y="300" as="sourcePoint" />
-            <mxPoint x="609" y="300" as="targetPoint" />
+            <mxPoint x="539" y="520" as="sourcePoint" />
+            <mxPoint x="699" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="OEuHIVzh_DNf39XRjNOx-1" target="9_AkcLnm12QB7tInCQXO-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="819" y="341.36092850837736" as="sourcePoint" />
-            <mxPoint x="679.9502535794938" y="280.0022476784218" as="targetPoint" />
+            <mxPoint x="909" y="561.3609285083774" as="sourcePoint" />
+            <mxPoint x="769.9502535794938" y="500.0022476784218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-9" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="cjTMBxp2-w8zUOzAaKwB-2" target="cjTMBxp2-w8zUOzAaKwB-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="492.5" y="330" as="sourcePoint" />
-            <mxPoint x="492.5" y="220" as="targetPoint" />
+            <mxPoint x="582.5" y="550" as="sourcePoint" />
+            <mxPoint x="582.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="tOgcq0GgagfdtxYcJej9-1" target="cjTMBxp2-w8zUOzAaKwB-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="208.16000000000003" y="152.1574615307806" as="sourcePoint" />
-            <mxPoint x="60.00090067864306" y="90.00433939447858" as="targetPoint" />
+            <mxPoint x="298.16" y="372.1574615307806" as="sourcePoint" />
+            <mxPoint x="150.00090067864306" y="310.00433939447856" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="tOgcq0GgagfdtxYcJej9-1" target="cjTMBxp2-w8zUOzAaKwB-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="160" y="254.80406341976527" as="sourcePoint" />
-            <mxPoint x="290.09535311356285" y="209.73958314234437" as="targetPoint" />
+            <mxPoint x="250" y="474.80406341976527" as="sourcePoint" />
+            <mxPoint x="380.09535311356285" y="429.7395831423444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-12" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="cjTMBxp2-w8zUOzAaKwB-1" target="LXiljwWNgDDm90cMRyLn-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="332.5" y="330" as="sourcePoint" />
-            <mxPoint x="332.5" y="220" as="targetPoint" />
+            <mxPoint x="422.5" y="550" as="sourcePoint" />
+            <mxPoint x="422.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFXb_T232woT5W2AGb7N-1" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="tOgcq0GgagfdtxYcJej9-1" target="LXiljwWNgDDm90cMRyLn-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="474.80406341976527" as="sourcePoint" />
+            <mxPoint x="380.09535311356126" y="429.73958314234505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFXb_T232woT5W2AGb7N-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="OEuHIVzh_DNf39XRjNOx-1" target="cjTMBxp2-w8zUOzAaKwB-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="475.4146019235193" as="sourcePoint" />
+            <mxPoint x="646.641563355432" y="428.53396989671273" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
