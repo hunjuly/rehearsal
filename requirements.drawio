@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T23:55:31.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="oCrwQvz6h5QAJObTgUSY" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:03:54.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="DkhCIsCVKVfLJylKoTfl" version="19.0.1" type="github">
   <diagram id="mqK4kMpAI8Hw3ujEgYIB" name="usecase">
     <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tOgcq0GgagfdtxYcJej9-1" value="관객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="440" width="30" height="60" as="geometry" />
+          <mxGeometry x="200" y="398" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OEuHIVzh_DNf39XRjNOx-1" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="398" width="30" height="60" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="360" y="270" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-1" value="회원관리&lt;br&gt;users&lt;br&gt;공연정보&lt;br&gt;performances?&lt;br&gt;공연예매&lt;br&gt;tickets&lt;br&gt;통계&lt;br&gt;statisticses?" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="20" y="20" width="180" height="148" as="geometry" />
+          <mxGeometry x="420" y="70" width="180" height="148" as="geometry" />
         </mxCell>
         <mxCell id="1RQtIIMA2JgJQelL4JA_-3" value="extend?" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=middle;" parent="1" source="9_AkcLnm12QB7tInCQXO-1" target="9_AkcLnm12QB7tInCQXO-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -94,6 +94,15 @@
         <mxCell id="1_mIp76XoMTYMMlnuhH1-3" value="의존관계임" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1_mIp76XoMTYMMlnuhH1-2">
           <mxGeometry x="-0.0756" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_mIp76XoMTYMMlnuhH1-4" value="검표원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_mIp76XoMTYMMlnuhH1-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="1" source="1_mIp76XoMTYMMlnuhH1-4" target="cjTMBxp2-w8zUOzAaKwB-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="445.14598232842184" as="sourcePoint" />
+            <mxPoint x="475.42213842975525" y="557.3008117243085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
