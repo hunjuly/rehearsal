@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T00:39:50.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="mt6G7ewj2FGwYTTW3Myu" version="20.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-14T00:02:54.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="oIR9rTxkusg0SOP5ZjdM" version="20.0.0" type="github" pages="3">
   <diagram id="mqK4kMpAI8Hw3ujEgYIB" name="usecase">
     <mxGraphModel dx="1026" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="usecase2" id="K6epHLBiM-Ys8TJI44Jy">
-    <mxGraphModel dx="1578" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ccDAl2KC0UJpjmI0Pp02-0" />
         <mxCell id="ccDAl2KC0UJpjmI0Pp02-1" parent="ccDAl2KC0UJpjmI0Pp02-0" />
@@ -271,13 +271,27 @@
             <mxPoint x="502.9999999999998" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O-tb8ipl_g3nTFz4lnq5-0" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fR6CF-t2l3BCQe7vOtbq-1">
+        <mxCell id="O-tb8ipl_g3nTFz4lnq5-0" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fR6CF-t2l3BCQe7vOtbq-1" vertex="1" connectable="0">
           <mxGeometry x="-0.326" y="-1" relative="1" as="geometry">
             <mxPoint x="22" y="-55" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_6GNw7IMC92yLe0riR--7" value="ticket은 하위레벨 구현의 표현이다. 사용자 입장에서는 예약 시스템이다" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="ccDAl2KC0UJpjmI0Pp02-1">
-          <mxGeometry x="120" y="727" width="375" height="100" as="geometry" />
+        <mxCell id="0_6GNw7IMC92yLe0riR--7" value="ticket은 하위레벨 구현의 표현이다. 사용자 입장에서는 예약 시스템이다" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="ccDAl2KC0UJpjmI0Pp02-1" vertex="1">
+          <mxGeometry x="417.5" y="740" width="375" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="TcovWy2pkXIHINFW-idk-0" value="관객 -&amp;gt; 사용자&lt;br&gt;관객은 시청하는 사람이다. &lt;br&gt;서비스를 이용하는 것과는 다르다" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="ccDAl2KC0UJpjmI0Pp02-1">
+          <mxGeometry x="10" y="460" width="270" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6uAedtY2CmdHEUnrAfry" name="Page-3">
+    <mxGraphModel dx="1026" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0pNmBIRmzI0rmqzbprIV-1" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
