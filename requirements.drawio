@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T11:06:49.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="K4LHDm1B4k_v7e7TJXhZ" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T11:09:20.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="HXvcq2xmzQwNoQdj16ka" version="20.0.1" type="github" pages="4">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -200,18 +200,20 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ST2" id="b-umKPPCu-kA2tse2Cgk">
-    <mxGraphModel dx="1238" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-0" />
         <mxCell id="KzkOpWMTNAqEcN3elOSd-1" parent="KzkOpWMTNAqEcN3elOSd-0" />
         <mxCell id="KzkOpWMTNAqEcN3elOSd-2" value="공연 예약 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1">
           <mxGeometry x="280" y="150" width="590" height="539" as="geometry" />
         </mxCell>
-        <mxCell id="KzkOpWMTNAqEcN3elOSd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KzkOpWMTNAqEcN3elOSd-1" source="KzkOpWMTNAqEcN3elOSd-4" target="KzkOpWMTNAqEcN3elOSd-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KzkOpWMTNAqEcN3elOSd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KzkOpWMTNAqEcN3elOSd-1" source="KzkOpWMTNAqEcN3elOSd-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="340.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-4" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1">
-          <mxGeometry x="120" y="389" width="30" height="60" as="geometry" />
+          <mxGeometry x="120" y="310" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6piO6n0YzcAC1KIbVRO2-3" value="" style="group" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1" connectable="0">
           <mxGeometry x="600" y="244" width="240" height="160" as="geometry" />
@@ -272,6 +274,14 @@
             <mxPoint x="940" y="284" as="sourcePoint" />
             <mxPoint x="990" y="234" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="a_ZowhqVxYi_-uN7fXEj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KzkOpWMTNAqEcN3elOSd-1" source="a_ZowhqVxYi_-uN7fXEj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="540.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_ZowhqVxYi_-uN7fXEj-4" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="KzkOpWMTNAqEcN3elOSd-1">
+          <mxGeometry x="120" y="510" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
