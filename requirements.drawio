@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T10:48:38.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="NwKPQNdJj3NqoOk9eDOy" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T10:52:33.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="rG4I0H0cilNT0xqFNZyZ" version="20.0.1" type="github" pages="4">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ST2" id="b-umKPPCu-kA2tse2Cgk">
-    <mxGraphModel dx="1426" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-0" />
         <mxCell id="KzkOpWMTNAqEcN3elOSd-1" parent="KzkOpWMTNAqEcN3elOSd-0" />
@@ -259,6 +259,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="580" as="sourcePoint" />
             <mxPoint x="1060" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XNwh78yVTwpQr2kX0MDv-4" value="CRUD는 일반적인 기능이기 때문에 따로 설계하지는 않는다." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=0;strokeColor=default;" vertex="1" parent="KzkOpWMTNAqEcN3elOSd-1">
+          <mxGeometry x="320" y="540" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XNwh78yVTwpQr2kX0MDv-5" value="예약 프로세스는 단계가 많다. 도메인 전문가와 검증하기 위해서라도 문서로 정리해야 한다.&lt;br&gt;sequence diagram을 사용한다." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=0;strokeColor=default;" vertex="1" parent="KzkOpWMTNAqEcN3elOSd-1">
+          <mxGeometry x="910" y="50" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XNwh78yVTwpQr2kX0MDv-6" value="" style="endArrow=none;html=1;rounded=0;shadow=0;sketch=1;strokeColor=default;" edge="1" parent="KzkOpWMTNAqEcN3elOSd-1" source="KzkOpWMTNAqEcN3elOSd-6" target="XNwh78yVTwpQr2kX0MDv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="284" as="sourcePoint" />
+            <mxPoint x="990" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
