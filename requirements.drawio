@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T00:51:40.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="GIBouMfpwt5zM3iFt1Gv" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T00:57:46.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="G4Xi5C2jMKtUHdshY0AC" version="20.0.1" type="github" pages="4">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="1209" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ST3-화면설계" id="VEeTB2SYCzF4mNLdzPeQ">
-    <mxGraphModel dx="1238" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="9DVMxWn72YWfe6H3oGVL-0" />
         <mxCell id="9DVMxWn72YWfe6H3oGVL-1" parent="9DVMxWn72YWfe6H3oGVL-0" />
@@ -257,7 +257,7 @@
         <mxCell id="9DVMxWn72YWfe6H3oGVL-6" value="Reservation" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-5">
           <mxGeometry width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="9DVMxWn72YWfe6H3oGVL-7" value="공연 예약&lt;br&gt;(공연장-&amp;gt;시간-&amp;gt;좌석-&amp;gt;결제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-5">
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-7" value="공연 예약&lt;br&gt;(공연장-&amp;gt;시간-&amp;gt;좌석-&amp;gt;결제)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-5">
           <mxGeometry x="30" y="50" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9DVMxWn72YWfe6H3oGVL-8" value="Information" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
