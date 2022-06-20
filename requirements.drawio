@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T00:41:37.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="eNojzh-t1f6yYKZ6j5u_" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-20T00:51:40.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="GIBouMfpwt5zM3iFt1Gv" version="20.0.1" type="github" pages="4">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="1209" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ST2" id="b-umKPPCu-kA2tse2Cgk">
-    <mxGraphModel dx="1209" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1905" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-0" />
         <mxCell id="KzkOpWMTNAqEcN3elOSd-1" parent="KzkOpWMTNAqEcN3elOSd-0" />
@@ -232,6 +232,44 @@
           <mxGeometry x="329.48" y="344" width="181.05" height="49" as="geometry" />
         </mxCell>
         <mxCell id="FzNorxuzuV06IJQ5Qpio-0" value="공연장&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;공연장 상세 설명, 시간, 좌석수, 가격,지역)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1">
+          <mxGeometry x="329.47" y="404" width="181.05" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ST3-화면설계" id="VEeTB2SYCzF4mNLdzPeQ">
+    <mxGraphModel dx="1238" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-0" />
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-1" parent="9DVMxWn72YWfe6H3oGVL-0" />
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-2" value="공연 예약 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="280" y="149" width="280" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9DVMxWn72YWfe6H3oGVL-1" source="9DVMxWn72YWfe6H3oGVL-4" target="9DVMxWn72YWfe6H3oGVL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-4" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="120" y="389" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-5" value="" style="group" vertex="1" connectable="0" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="300" y="504" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-6" value="Reservation" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-5">
+          <mxGeometry width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-7" value="공연 예약&lt;br&gt;(공연장-&amp;gt;시간-&amp;gt;좌석-&amp;gt;결제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-5">
+          <mxGeometry x="30" y="50" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-8" value="Information" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="300" y="233" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-9" value="공연&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;줄거리, 제한연령, 관람평)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="329.47" y="284" width="181.05" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-10" value="공연 목록&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;순위 -&amp;gt; 주간, 성별, 연령, 장르)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
+          <mxGeometry x="329.48" y="344" width="181.05" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9DVMxWn72YWfe6H3oGVL-11" value="공연장&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;공연장 상세 설명, 시간, 좌석수, 가격,지역)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9DVMxWn72YWfe6H3oGVL-1">
           <mxGeometry x="329.47" y="404" width="181.05" height="52" as="geometry" />
         </mxCell>
       </root>
