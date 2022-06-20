@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T00:39:44.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="4OZ8c1pm2wysLIR7rQws" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-20T00:40:47.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="TskafAEjABVX8iZSMpdc" version="20.0.1" type="github" pages="3">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="1209" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="f3HiMkQdTakmDBpZdiw2-1" value="공연 예약 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="1" vertex="1">
-          <mxGeometry x="280" y="289" width="490" height="250" as="geometry" />
+          <mxGeometry x="280" y="289" width="330" height="250" as="geometry" />
         </mxCell>
         <mxCell id="f3HiMkQdTakmDBpZdiw2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0pNmBIRmzI0rmqzbprIV-1" target="f3HiMkQdTakmDBpZdiw2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -196,16 +196,10 @@
         <mxCell id="d3q1-WDvftnTweQv-pwA-3" value="공연 예약" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="444" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="euxGdPaeoi3f4Jxq7jc1-1" value="공연 정보 -&amp;gt; 줄거리, 제한연령, 관람평&lt;br&gt;순위 -&amp;gt; 주간, 성별, 연령, 장르&lt;br&gt;공연장 정보 -&amp;gt; 공연장 상세 설명, 시간, 좌석수, 가격" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
-          <mxGeometry x="450" y="326" width="290" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="D7FUaekDgch1ytiB2ggm-1" value="공연장 선택, 시간 선택, 좌석 선택, 결제" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
-          <mxGeometry x="450" y="432" width="290" height="64" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of ST1" id="b-umKPPCu-kA2tse2Cgk">
+  <diagram name="ST2" id="b-umKPPCu-kA2tse2Cgk">
     <mxGraphModel dx="1209" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-0" />
