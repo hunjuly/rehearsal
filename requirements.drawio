@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T11:11:14.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="MKWpnjzzFh56pTZodPbE" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T11:19:08.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="JtCr9Jz29rcSkFbbqTRy" version="20.0.1" type="github" pages="4">
   <diagram name="PR1" id="K6epHLBiM-Ys8TJI44Jy">
     <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -177,11 +177,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6uAedtY2CmdHEUnrAfry" name="ST1">
-    <mxGraphModel dx="786" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="f3HiMkQdTakmDBpZdiw2-1" value="공연 예약 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="1" vertex="1">
+        <mxCell id="f3HiMkQdTakmDBpZdiw2-1" value="공연 예매 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="1" vertex="1">
           <mxGeometry x="280" y="289" width="330" height="250" as="geometry" />
         </mxCell>
         <mxCell id="f3HiMkQdTakmDBpZdiw2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0pNmBIRmzI0rmqzbprIV-1" target="f3HiMkQdTakmDBpZdiw2-1" edge="1">
@@ -204,7 +204,7 @@
       <root>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-0" />
         <mxCell id="KzkOpWMTNAqEcN3elOSd-1" parent="KzkOpWMTNAqEcN3elOSd-0" />
-        <mxCell id="KzkOpWMTNAqEcN3elOSd-2" value="공연 예약 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1">
+        <mxCell id="KzkOpWMTNAqEcN3elOSd-2" value="공연 예매 시스템(Program Reservation System)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=20;" parent="KzkOpWMTNAqEcN3elOSd-1" vertex="1">
           <mxGeometry x="280" y="150" width="590" height="539" as="geometry" />
         </mxCell>
         <mxCell id="KzkOpWMTNAqEcN3elOSd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KzkOpWMTNAqEcN3elOSd-1" source="KzkOpWMTNAqEcN3elOSd-4" edge="1">
